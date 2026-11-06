@@ -1,0 +1,24 @@
+site_name: Little Squeaky Machine
+theme: 
+  name: material
+  font:
+    code: Roboto mono
+  features:
+    - navigation.instant
+    - content.code.annotate
+nav:
+  - Start: index.md
+extra_css:
+  - css/custom.css
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
