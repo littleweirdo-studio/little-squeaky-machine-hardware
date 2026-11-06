@@ -1,7 +1,9 @@
 
 # Welcome!
 
-Yes! You’ve want to build or program the ↓↓↓↓↓↓
+The Little Squeaky Machine is a hardware reference platform for the [Little Weirdo software synthesizer](https://github.com/littleweirdo-studio/little-weirdo). It is designed to run the [Little Squeaky Machine firmware](https://github.com/littleweirdo-studio/little-squeaky-machine-firmware).
+
+Yes! You’ve want to build, hack, create a new firmware for the ↓↓↓↓↓↓
 
 ```ruby hl_lines="1 2"
  ⡇ ⡇⢹⠁⢹⠁⡇ ⣏⡉ ⢎⡑⡎⢱⡇⢸⣏⡉⣎⣱⣇⠜⢇⢸ ⡷⢾⣎⣱⡎⠑⣇⣸⡇⡷⣸⣏⡉
@@ -23,8 +25,9 @@ Yes! You’ve want to build or program the ↓↓↓↓↓↓
 ╰━━━━━━━━━━━━━━╮                                                                            │
                ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
 ```
+![front pcb](images/revision_3_0_pcb_front.png "revision 2.0 pcb")
 
-Don’t read the manual! Just plug it in with a USB-C cable `#!ruby [1]` into a power bank, your mobile phone, a power adapter, or a laptop and connect some headphones `#!ruby [2]`
+First things first. With the loaded firmware you have a good starting point. Don’t read the manual! Just plug it in with a USB-C cable `#!ruby [1]` into a power bank, your mobile phone, a power adapter, or a laptop and connect some headphones `#!ruby [2]`
 
 
 ```ruby
@@ -66,4 +69,3 @@ Some lights will turn on, and the logo will appear on the display. Use the red k
 Let’s start squeaking! If you want to know more, turn to the relevant chapter in this manual.
 
 Have fun! Squeakiness comes in waves—and don’t forget: §QυεΛΛΛΛκκ Cαη ħαρρεη α⊥ αηψ тıмε!
-```   

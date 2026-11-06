@@ -8,6 +8,9 @@ theme:
     - content.code.annotate
 nav:
   - Start: index.md
+  - Specs: specs.md
+  - Pinout: pinout.md
+  - I²C device addresses: address.md
 extra_css:
   - css/custom.css
 markdown_extensions:
