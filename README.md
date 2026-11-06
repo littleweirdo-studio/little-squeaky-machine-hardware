@@ -3,6 +3,7 @@
  ⠧⠤⠇⠸ ⠸ ⠧⠤⠧⠤ ⠢⠜⠣⠪⠣⠜⠧⠤⠇⠸⠇⠱ ⠇ ⠇⠸⠇⠸⠣⠔⠇⠸⠇⠇⠹⠧⠤
 ```
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![Documentation Status](https://app.readthedocs.org/projects/little-squeaky-machine-hardware/badge/?version=stable&style=flat)](https://little-squeaky-machine-hardware.readthedocs.io/en/stable/)
 
 The Little Squeaky Machine is a hardware reference platform for the [Little Weirdo Software Synthesizer](https://github.com/hi-squeaky-things/little-weirdo). 
 
@@ -10,10 +11,10 @@ Our first project is launching soon: our LttL Squeaky Machine! Put yourself on t
 
 [Join the waitinglist](https://www.hi-squeaky-things.nl/waiting-list)
 
-
 [cc-by-nc-sa]: https://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
 
 > [!CAUTION]
 > This project is actively being developed with frequent breaking changes. Wires may shift, features are incomplete, and stability is not guaranteed. Use at your own risk and expect regular updates that might require SW/HW adjustments. Have fun!
