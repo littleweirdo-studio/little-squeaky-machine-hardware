@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ProPrj_little_squeaky_machine_V4_2026-11-05-import-fps") (type "KiCad") (uri "${KIPRJMOD}/ProPrj_little_squeaky_machine_V4_2026-11-05-import-fps.pretty") (options "kicad_import_cache=1") (descr ""))
+)

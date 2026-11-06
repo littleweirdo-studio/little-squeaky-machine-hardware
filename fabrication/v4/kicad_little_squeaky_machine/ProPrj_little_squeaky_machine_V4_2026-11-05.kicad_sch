@@ -1,0 +1,377 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d9162d37-552e-4f26-a096-c88145cbbda8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 5.08 13.97)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "29ba9ea4-e89c-4fae-b5cf-2e8525e3dc99")
+		(property "Sheetname" "Audio Codec"
+			(at 5.08 13.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Audio Codec.kicad_sch"
+			(at 5.08 18.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProPrj_little_squeaky_machine_V4_2026-11-05"
+				(path "/d9162d37-552e-4f26-a096-c88145cbbda8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 5.08)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4737bf98-c480-46ea-a119-2a6c2864b14c")
+		(property "Sheetname" "Processing"
+			(at 5.08 4.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1_Processing.kicad_sch"
+			(at 5.08 9.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProPrj_little_squeaky_machine_V4_2026-11-05"
+				(path "/d9162d37-552e-4f26-a096-c88145cbbda8"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 49.53)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4f9494fa-a361-467c-826a-fab80c3056d0")
+		(property "Sheetname" "Midi In/Out"
+			(at 5.08 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6_Midi In{slash}Out.kicad_sch"
+			(at 5.08 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProPrj_little_squeaky_machine_V4_2026-11-05"
+				(path "/d9162d37-552e-4f26-a096-c88145cbbda8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 40.64)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5ba8ec1b-5a37-4b0b-8f28-2245e9742b5b")
+		(property "Sheetname" "Pot and Encoder Controls"
+			(at 5.08 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5_Pot and Encoder Controls.kicad_sch"
+			(at 5.08 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProPrj_little_squeaky_machine_V4_2026-11-05"
+				(path "/d9162d37-552e-4f26-a096-c88145cbbda8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 58.42)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5efe85f9-4047-4534-8fc7-3f9a05a609c6")
+		(property "Sheetname" "Touch control"
+			(at 5.08 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "7_Touch control.kicad_sch"
+			(at 5.08 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProPrj_little_squeaky_machine_V4_2026-11-05"
+				(path "/d9162d37-552e-4f26-a096-c88145cbbda8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 31.75)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6ba38ea7-3ad0-4800-ad6d-2a17d98ecafc")
+		(property "Sheetname" "Key Matrix Controls"
+			(at 5.08 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4_Key Matrix Controls.kicad_sch"
+			(at 5.08 36.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProPrj_little_squeaky_machine_V4_2026-11-05"
+				(path "/d9162d37-552e-4f26-a096-c88145cbbda8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 67.31)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7d33c3c6-5500-4aab-b68f-de0d07c28325")
+		(property "Sheetname" "Gyro Control"
+			(at 5.08 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "8_Gyro Control.kicad_sch"
+			(at 5.08 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProPrj_little_squeaky_machine_V4_2026-11-05"
+				(path "/d9162d37-552e-4f26-a096-c88145cbbda8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 22.86)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d2aa7471-20ee-47f5-9cd0-7c848ec87304")
+		(property "Sheetname" "Led Controls"
+			(at 5.08 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3_Led Controls.kicad_sch"
+			(at 5.08 27.2546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProPrj_little_squeaky_machine_V4_2026-11-05"
+				(path "/d9162d37-552e-4f26-a096-c88145cbbda8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
