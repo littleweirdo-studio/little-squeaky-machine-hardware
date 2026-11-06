@@ -1,6 +1,22 @@
 ```
  ⡇ ⡇⢹⠁⢹⠁⡇ ⣏⡉ ⢎⡑⡎⢱⡇⢸⣏⡉⣎⣱⣇⠜⢇⢸ ⡷⢾⣎⣱⡎⠑⣇⣸⡇⡷⣸⣏⡉
  ⠧⠤⠇⠸ ⠸ ⠧⠤⠧⠤ ⠢⠜⠣⠪⠣⠜⠧⠤⠇⠸⠇⠱ ⠇ ⠇⠸⠇⠸⠣⠔⠇⠸⠇⠇⠹⠧⠤
+
+  top view     ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
+╭━━━━━━━━━━━━━━╯    ╭MIC╮                                                                   │
+│                   │ ♫ │                 ╭────────────╮                                    │
+│                   ╰───╯                 │ LttL       │                                    │
+│           ╡    ╭0╮               ╭1╮    │ Squeaky    │   ╭2╮               ╭3╮     ╭═M═╮  │
+│           ╡    │◉│               │◉│    │ Machine ♫  │   │◉│               │◉│     │░░░│  │
+│           ╡    ╰─╯               ╰─╯    ╰────────────╯   ╰─╯               ╰─╯     ╰▀▀▀╯  │
+│ external ─╡   ╭─0─╮ ╭─C─╮ ╭─D─╮ ╭─1─╮ ╭─F─╮ ╭─G─╮ ╭─A─╮ ╭─2─╮ ╭─C─╮ ╭─D─╮ ╭─3─╮ ╭─F─╮     │
+│ interface ╡   │░░░│ │ # │ │ # │ │░░░│ │ # │ │ # │ │ # │ │░░░│ │ # │ │ # │ │░░░│ │ # │     │
+│           ╡   ╰───╯ ╰▀▀▀╯ ╰▀▀▀╯ ╰───╯ ╰▀▀▀╯ ╰▀▀▀╯ ╰▀▀▀╯ ╰───╯ ╰▀▀▀╯ ╰▀▀▀╯ ╰───╯ ╰▀▀▀╯     │
+│           ╡      ╭─C─╮ ╭─D─╮ ╭─E─╮ ╭─F─╮ ╭─G─╮ ╭─A─╮ ╭─B─╮ ╭─C─╮ ╭─D─╮ ╭─E─╮ ╭─F─╮ ╭─G─╮  │
+│                  │   │ │   │ │   │ │   │ │   │ │   │ │   │ │   │ │   │ │   │ │   │ │   │  │
+│                  ╰───╯ ╰───╯ ╰───╯ ╰───╯ ╰───╯ ╰───╯ ╰───╯ ╰───╯ ╰───╯ ╰───╯ ╰───╯ ╰───╯  │
+╰━━━━━━━━━━━━━━╮                                                                            │
+               ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
 ```
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 [![Documentation Status](https://app.readthedocs.org/projects/little-squeaky-machine-hardware/badge/?version=stable&style=flat)](https://little-squeaky-machine-hardware.readthedocs.io/en/stable/)
@@ -33,25 +49,7 @@ We made some changes to revision 3.0 due to some safety and noise reducation req
 ### Revision 3.0 
 
 We are iteration on revision 3.0. Soon to be released. 
-
 ![](https://www.hi-squeaky-things.nl/web/image/1400-5c54f567/Jouw%20alineatekst%20%281%29.webp)
-
-> [!CAUTION]
-Small batch of this revision is fabricated. Use the schematics and layouts at your own risk because the new docs/images/design is not fully tested yet. We are testing this revision with different types of key switches and caps and color. 
-
-Rendered versions:
-
-![case front](docs/images/revision_3_0_case_front.png "revision 3.0 with casing")
-![case back](docs/images/revision_3_0_case_back.png "revision 3.0 with casing")
-
-- [Specification and capabilities](docs/images/specs.md)
-- [Pin layout of the ESP32S3 based MCU](docs/images/pinout.md)
-- [Fabrication files](fabrication)
-
-![front pcb](docs/images/revision_3_0_pcb_front.png "revision 2.0 pcb")
-
-![back pcb](docs/images/revision_3_0_pcb_back.png "revision 2.0 pcb back")
-
 
 ### Revision 2.0 
 
@@ -64,18 +62,26 @@ Small batch of this revision is fabricated. Use the schematics and layouts at yo
 
 Rendered versions:
 
-![case front](docs/images/revision_2_0_case_front.png "revision 2.0 with casing")
-![case back](docs/images/revision_2_0_case_back.png "revision 2.0 with casing")
-![front pcb](docs/images/revision_2_0_pcb_front.png "revision 2.0 pcb")
-![back pcb](docs/images/revision_2_0_pcb_back.png "revision 2.0 pcb back")
+![case front](design/revision_2_0_case_front.png "revision 2.0 with casing")
+![case back](design/revision_2_0_case_back.png "revision 2.0 with casing")
+
+
+- [Specification and capabilities](design/specs.md)
+- [Pin layout of the ESP32S3 based MCU](design/pinout.md)
+- [Fabrication files](fabrication)
+
+![front pcb](design/revision_2_0_pcb_front.png "revision 2.0 pcb")
+
+![back pcb](design/revision_2_0_pcb_back.png "revision 2.0 pcb back")
 
 
 ### Revision 1.0
 
 This is the first prototype we created and running a firmware using [Little Weirdo Software Synthesizer](https://github.com/hi-squeaky-things/little-weirdo) for sound synthesis. This revision was only for a proof-of-concept some features and not for production use.
+![top level pcb](design/revision_1_0.jpg "photo first prototype")
 
-![top level pcb](docs/images/revision_1_0.jpg "photo first prototype")
-![top level pcb](docs/images/revision_1_0_pcb_front.png "photo first prototype")
+
+![top level pcb](design/revision_1_0_pcb_front.png "photo first prototype")
 
 ## License
 
