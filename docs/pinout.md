@@ -13,17 +13,24 @@ For the peripherals' I²C addresses, see [I²C device addresses](address.md).
 
 The tables below list the module signal or GPIO identifier, its board net name, and its function. GPIO identifiers are not physical header-pin numbers.
 
-### Power, reset, and boot
+### Reset and boot
 
-| Module signal / GPIO | Net name | Function |
+| GPIO | Net name | Function |
 | --- | --- | --- |
-| `EN` | `EN` | Enables or resets the ESP32-S3 module. |
-| GPIO 0 | `CHIP_BOOT` | Boot-strapping signal and reused for KEY_25 |
-| GPIO 1 | `RESET` | Board reset |
-| GPIO 45 | — | Not connected in the current schematic. |
-| GPIO 46 | — | Not connected in the current schematic. |
+| 0 | `CHIP_BOOT` | Boot-strapping signal and reused for a key switch |
+| 1 | `RESET` | Board reset / Reset switch |
 
 ### USB and MIDI
+
+```ruby
+  rear view                              ⬇                        ⬇   
+╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
+│ ╭─╮     ┎─MIC-IN  ┎─LINE-OUT           ┎─MIDI-IN               ╭───╮ ╭─╮   │
+│ ╰┳╯     ◉    ◉    ◉     ◉              ◉     ◉                 ╰─┳─╯ ╰┳╯   │
+│ MIC EX/IN    ┖─LINE-IN  ┖─HEADPHONE          ┖─MIDI-OUT         USB RESET  │
+╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
+                                               ⬆
+```   
 
 | GPIO | Net name | Function |
 | --- | --- | --- |
@@ -61,7 +68,7 @@ The tables below list the module signal or GPIO identifier, its board net name, 
 | 3, 9 | `ENCO1_A/B` | Encoder 1 A/B channels. |
 | 1, 2 | `ENCO2_A/B` | Encoder 2 A/B channels. |
 | 43, 44 | `ENCO3_A/B` | Encoder 3 A/B channels. |
-| 21 | `H_OLED` | OLED header net. |
+| 21 | `H_OLED` | OLED display. |
 
 ### Notes
 

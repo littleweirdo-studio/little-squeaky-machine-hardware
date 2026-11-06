@@ -3,9 +3,9 @@
 
 The Little Squeaky Machine is a hardware reference platform for the [Little Weirdo software synthesizer](https://github.com/littleweirdo-studio/little-weirdo). It is designed to run the [Little Squeaky Machine firmware](https://github.com/littleweirdo-studio/little-squeaky-machine-firmware).
 
-Yes! You’ve want to build, hack, create a new firmware for the ↓↓↓↓↓↓
+Yes! This documentation is for you if you want to build, hack, remix the hardware or start creating a new firmware for the ↓↓↓↓↓↓
 
-```ruby hl_lines="1 2"
+```ruby
  ⡇ ⡇⢹⠁⢹⠁⡇ ⣏⡉ ⢎⡑⡎⢱⡇⢸⣏⡉⣎⣱⣇⠜⢇⢸ ⡷⢾⣎⣱⡎⠑⣇⣸⡇⡷⣸⣏⡉
  ⠧⠤⠇⠸ ⠸ ⠧⠤⠧⠤ ⠢⠜⠣⠪⠣⠜⠧⠤⠇⠸⠇⠱ ⠇ ⠇⠸⠇⠸⠣⠔⠇⠸⠇⠇⠹⠧⠤
 
@@ -25,24 +25,20 @@ Yes! You’ve want to build, hack, create a new firmware for the ↓↓↓↓↓
 ╰━━━━━━━━━━━━━━╮                                                                            │
                ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
 ```
-![front pcb](images/revision_3_0_pcb_front.png "revision 2.0 pcb")
+![front pcb](images/revision_4_0_pcb_front.png "revision 4.0 pcb")
 
 First things first. With the loaded firmware you have a good starting point. Don’t read the manual! Just plug it in with a USB-C cable `#!ruby [1]` into a power bank, your mobile phone, a power adapter, or a laptop and connect some headphones `#!ruby [2]`
 
 
 ```ruby
                                                         [1] ⇉ PLUG IT IN!!!
-  rear view                                                       ↓↓↓   
+  rear view                                                        ⬇   
 ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
-│ ╭─╮     ┎─MIC-IN  ┎─LINE-OUT # (1)     ┎─MIDI-IN               ╭───╮ ╭─╮   │
+│ ╭─╮     ┎─MIC-IN  ┎─LINE-OUT           ┎─MIDI-IN               ╭───╮ ╭─╮   │
 │ ╰┳╯     ◉    ◉    ◉     ◉              ◉     ◉                 ╰─┳─╯ ╰┳╯   │
 │ MIC EX/IN    ┖─LINE-IN  ┖─HEADPHONE ⇇ [2]    ┖─MIDI-OUT         USB RESET  │
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
 ```              
-
-1.  I'm a code annotation! I can contain `code`, __formatted
-    text__, images, ... basically anything that can be written in Markdown.
-
 
 !!! warning "Use a good quality (shielded) cable and a (low noise) USB-C power source capable of supplying 15 W (5 V/3 A)"
 
@@ -52,7 +48,7 @@ Some lights will turn on, and the logo will appear on the display. Use the red k
  top view      ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
 ╭━━━━━━━━━━━━━━╯   ╭MIC╮                                                           [1] ⇉ HIT ⇇  │
 │                  │ ♫ │                  ╭────────────╮               [2] ⇉ TURN ⇇      ↓↓↓    │
-│                  ╰───╯                  │ LttL       │                     ↓↓↓         ↓↓↓    │
+│                  ╰───╯                  │ LttL       │                      ⬇          ⬇     │
 │           ╡    ╭─╮               ╭─╮    │ Squeaky    │   ╭─╮               ╭─╮        ╭═M═╮   │
 │           ╡    │◉│               │◉│    │ Machine ♫  │   │◉│               │◉│        │░░░│   │
 │           ╡    ╰─╯               ╰─╯    ╰────────────╯   ╰─╯               ╰─╯        ╰▀▀▀╯   │

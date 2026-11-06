@@ -27,46 +27,46 @@ The Little Squeaky Machine is a hardware reference platform for the [Little Weir
 
 This schematic covers the ESP32-S3 and its supporting circuitry, including a USB-C-compliant interface, electrostatic discharge (ESD) and electromagnetic compatibility (EMC) protection, boot and reset buttons, and an OLED display. A resettable fuse provides additional protection for the 5 V rail supplying the full-color LEDs.
 
-![Processing schematic](images/schematics/SCH_Little%20Squeaky%20Machine_1-Processing_2026-09-18.svg)
+![Processing schematic](images/schematics/SCH_Little%20Squeaky%20Machine_1-Processing_2026-11-06.svg)
 
 ### Audio codec
 
 This schematic shows the SGTL5000 audio codec and its supporting circuitry, including connectors, internal and external microphones, and a low-power, low-noise power supply.
 
-![Audio codec schematic](images/schematics/SCH_Little%20Squeaky%20Machine_2-Audio%20Codec_2026-09-18.svg)
+![Audio codec schematic](images/schematics/SCH_Little%20Squeaky%20Machine_2-Audio%20Codec_2026-11-06.svg)
 
 ### LED controls
 
 This schematic covers the circuitry for controlling the machine's full-color LEDs.
 
-![LED controls schematic](images/schematics/SCH_Little%20Squeaky%20Machine_3-Led%20Controls_2026-09-18.svg)
+![LED controls schematic](images/schematics/SCH_Little%20Squeaky%20Machine_3-Led%20Controls_2026-11-06.svg)
 
 ### Key matrix controls
 
 This schematic shows the key matrix and its connections for the 25 hot-swappable tactile switches.
 
-![Key matrix controls schematic](images/schematics/SCH_Little%20Squeaky%20Machine_4-Key%20Matrix%20Controls_2026-09-18.svg)
+![Key matrix controls schematic](images/schematics/SCH_Little%20Squeaky%20Machine_4-Key%20Matrix%20Controls_2026-11-06.svg)
 
 ### Potentiometer and encoder controls
 
 This schematic shows the connections for the four rotary encoders.
 
-![Potentiometer and encoder controls schematic](images/schematics/SCH_Little%20Squeaky%20Machine_5-Pot%20and%20Encoder%20Controls_2026-09-18.svg)
+![Potentiometer and encoder controls schematic](images/schematics/SCH_Little%20Squeaky%20Machine_5-Pot%20and%20Encoder%20Controls_2026-11-06.svg)
 
 ### MIDI input and output
 
 This schematic covers the TRS-A MIDI input and output connections.
 
-![MIDI input and output schematic](images/schematics/SCH_Little%20Squeaky%20Machine_6-Midi%20In-Out_2026-09-18.svg)
+![MIDI input and output schematic](images/schematics/SCH_Little%20Squeaky%20Machine_6-Midi%20In-Out_2026-11-06.svg)
 
 ### Touch controls
 
 This schematic shows the capacitive touch controller and its connections, including the touch inputs available through the edge connector.
 
-![Touch controls schematic](images/schematics/SCH_Little%20Squeaky%20Machine_7-Touch%20control_2026-09-18.svg)
+![Touch controls schematic](images/schematics/SCH_Little%20Squeaky%20Machine_7-Touch%20control_2026-11-06.svg)
 
 ### Motion sensing
 
 This schematic shows the STK8321 three-axis accelerometer and its I²C connection.
 
-![Motion sensing schematic](images/schematics/SCH_Little%20Squeaky%20Machine_8-Gyro%20Control_2026-09-18.svg)
+![Motion sensing schematic](images/schematics/SCH_Little%20Squeaky%20Machine_8-Gyro%20Control_2026-11-06.svg)
