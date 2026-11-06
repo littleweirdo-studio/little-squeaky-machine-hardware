@@ -1,4 +1,5 @@
 site_name: Little Squeaky Machine
+repo_url: https://github.com/littleweirdo-studio/little-squeaky-machine-hardware
 theme: 
   name: material
   font:
@@ -12,6 +13,10 @@ nav:
   - Pinout: pinout.md
   - I²C device addresses: address.md
   - Firmware: firmware.md
+extra:
+  version:
+    default: stable 
+    provider: mike
 extra_css:
   - css/custom.css
 plugins:
