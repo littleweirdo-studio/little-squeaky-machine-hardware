@@ -13,6 +13,8 @@ nav:
   - I²C device addresses: address.md
 extra_css:
   - css/custom.css
+plugins:
+  - to-pdf
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
