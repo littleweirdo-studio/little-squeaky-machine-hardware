@@ -46,6 +46,9 @@ The hardware is docs/images/designed using EasyEDA and KiCad.
 
 We made some changes to revision 3.0 due to some safety and noise reducation requirements. 
 
+![front pcb](docs/images/revision_4_0_pcb_front.png "revision 4.0 pcb")
+
+
 ### Revision 3.0 
 
 We are iteration on revision 3.0. Soon to be released. 
