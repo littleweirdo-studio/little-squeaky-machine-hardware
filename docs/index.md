@@ -32,7 +32,7 @@ First things first. With the loaded firmware you have a good starting point. Don
 
 ```ruby
                                                         [1] ⇉ PLUG IT IN!!!
-  rear view                                                        ⬇   
+  rear view                                                        ▼   
 ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
 │ ╭─╮     ┎─MIC-IN  ┎─LINE-OUT           ┎─MIDI-IN               ╭───╮ ╭─╮   │
 │ ╰┳╯     ◉    ◉    ◉     ◉              ◉     ◉                 ╰─┳─╯ ╰┳╯   │
@@ -48,7 +48,7 @@ Some lights will turn on, and the logo will appear on the display. Use the red k
  top view      ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
 ╭━━━━━━━━━━━━━━╯   ╭MIC╮                                                        [1] ⇉ HIT ⇇ │
 │                  │ ♫ │                  ╭────────────╮               [2] ⇉ TURN ⇇   ↓↓↓   │
-│                  ╰───╯                  │ LttL       │                      ⬇       ⬇    │
+│                  ╰───╯                  │ LttL       │                      ▼        ▼    │
 │           ╡    ╭─╮               ╭─╮    │ Squeaky    │   ╭─╮               ╭─╮     ╭═M═╮  │
 │           ╡    │◉│               │◉│    │ Machine ♫  │   │◉│               │◉│     │░░░│  │
 │           ╡    ╰─╯               ╰─╯    ╰────────────╯   ╰─╯               ╰─╯     ╰▀▀▀╯  │

@@ -18,13 +18,13 @@ The tables below are organized by function and show all the GPIO identifiers of 
 ### USB and MIDI
 
 ```ruby
-  rear view                              ⬇                        ⬇   
+  rear view                              ▼                         ▼ 
 ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
 │ ╭─╮     ┎─MIC-IN  ┎─LINE-OUT           ┎─MIDI-IN               ╭───╮ ╭─╮   │
 │ ╰┳╯     ◉    ◉    ◉     ◉              ◉     ◉                 ╰─┳─╯ ╰┳╯   │
 │ MIC EX/IN    ┖─LINE-IN  ┖─HEADPHONE          ┖─MIDI-OUT         USB RESET  │
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
-                                               ⬆
+                                               ▲
 ```   
 
 | GPIO | Net name | Function |
@@ -62,7 +62,7 @@ The SGTL5000's analog inputs and outputs are connected to the rear-view connecto
 │ ╰┳╯     ◉    ◉    ◉     ◉              ◉     ◉                 ╰─┳─╯ ╰┳╯   │
 │ MIC EX/IN    ┖─LINE-IN  ┖─HEADPHONE          ┖─MIDI-OUT         USB RESET  │
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
-   ⬆     ⬆    ⬆   ⬆    ⬆                           
+   ▲      ▲    ▲    ▲     ▲                           
 ```   
 
 | Interface | Description|
