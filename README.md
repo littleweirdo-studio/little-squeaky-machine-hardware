@@ -48,10 +48,10 @@ We made some changes to revision 3.0 to meet safety and noise-reduction requirem
 
 ![front pcb](docs/images/revision_4_0_pcb_front.png "revision 4.0 pcb")
 
-The exendable:
+The extendable with 5 touch points and 3 external touch points for connecting other capacitive touch objects:
 
 
-![extendable pcb](docs/images/revision_4_0_ext.png)
+<img src="docs/images/revision_4_0_ext.png" alt="extendable pcb" width="250">
 
 ### Revision 3.0 
 
