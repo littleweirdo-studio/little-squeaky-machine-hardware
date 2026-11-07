@@ -67,11 +67,11 @@ The SGTL5000's analog inputs and outputs are connected to the rear-view connecto
 
 | Interface | Description|
 |--         |--|
-|MIC EX/IN  | Selection between the internal microphone and the external microphone (condensator). |
+|MIC EX/IN  | Selection between the internal microphone and the external microphone (condenser). |
 |MIC-IN     | Connect an external condenser microphone to the machine. |
 |LINE-IN    | Connect an external line source, e.g., another machine, instrument, or phone. |
 |LINE-OUT   | Line-out for the great sounds you produce with the machine. |
-|HEADPHONE   | Headphone connector with a capless audio design. |
+|HEADPHONE  | Headphone connector with a capless audio design. |
 
 ### Touch, key matrix, and controls
 
