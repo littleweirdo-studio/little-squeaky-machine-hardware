@@ -40,7 +40,7 @@ Our first project is launching soon: our LttL Squeaky Machine! Put yourself on t
 
 ## Little Squeaky Machine Hardware
 
-The hardware designs in `docs/images` were created using EasyEDA and KiCad.
+The hardware designs in [`fabrication`](fabrication) were created using EasyEDA and KiCad.
 
 ### Revision 4.0 
 
