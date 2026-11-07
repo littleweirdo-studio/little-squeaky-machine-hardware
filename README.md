@@ -44,10 +44,14 @@ The hardware designs in [`fabrication`](fabrication) were created using EasyEDA 
 
 ### Revision 4.0 
 
-We made some changes to revision 3.0 to meet safety and noise-reduction requirements. We produced a small batch of five and are testing the hardware and software intensively. Hopefully, this version can be produced in production quantities.
+We made some changes to revision 3.0 to meet safety and noise-reduction requirements. We produced a small batch of five and are testing the hardware and software intensively. Hopefully, this version can be produced in production quantities. In the fabrication files you also find the extendable designs for the external human interaction interfaces.
 
 ![front pcb](docs/images/revision_4_0_pcb_front.png "revision 4.0 pcb")
 
+The exendable:
+
+
+![extendable pcb](docs/images/revision_4_0_ext.png)
 
 ### Revision 3.0 
 
